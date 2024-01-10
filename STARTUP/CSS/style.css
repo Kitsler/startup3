@@ -1,0 +1,91 @@
+body{
+    background-color: rgb(179, 237, 217);
+}
+header{
+    height: 70px;
+    border-radius: 5px;
+    background-color: Snow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 150px;
+    margin-right: 150px;
+    margin-bottom: 20px;
+    text-align: right;
+    padding-right: 15px;
+    
+}
+.parent{
+    display: flex;
+}
+.forma{
+    width: 300px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: Snow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 150px;
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+}
+.forma2{
+    width: 100%;
+    border-radius: 5px;
+    background-color: Snow;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-left: 20px;
+    margin-right: 150px;
+    display: inline-block;
+    padding: 15px;
+}
+.button{
+    border-radius: 5px;
+    background-color: rgb(53, 151, 238);
+    border: 0cap;
+    color: snow;
+    padding: 5px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  /* Выпадающее содержимое (скрыто по умолчанию) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+  
+  /* Ссылки внутри выпадающего списка */
+  .dropdown-content input {
+    color: black;
+    padding: 5px 5px;
+    text-decoration: none;
+    display: block;
+    font-size: 10px;
+  }
+  table{
+    width: 100%;
+  }
+  .column{
+    width: 150px;
+    height: 100px;
+    text-align: left;
+  }
+
+  .dropbtn {
+    background-color: rgb(53, 151, 238);
+    color: snow;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  caption{
+    font-size: 20px;
+  }
+
+  .head2{
+    width: 50%;
+    font-size: 20px;
+  }
